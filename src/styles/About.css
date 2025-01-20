@@ -1,0 +1,93 @@
+/* StreetFood.css */
+
+/* Main container styling */
+.streetFood {
+  font-family: "Roboto", sans-serif; /* Modern font */
+  color: #000; /* Black text */
+  background-color: #fff; /* White background */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Top section with the background image */
+.streetFoodTop {
+  height: 250px;
+  /* Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Bottom section containing the content */
+.streetFoodBottom {
+  margin-top: 100px;
+  padding: 40px 20px;
+  background-color: #fff; /* White background for the bottom section */
+  border-top: 4px solid #ffd700; /* Gold accent border */
+}
+
+/* Heading styles */
+.streetFoodBottom h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffd700; /* Gold for headings */
+  text-transform: uppercase;
+}
+
+/* Subheading styles */
+.streetFoodBottom h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #ffd700; /* Gold for subheadings */
+  text-align: center;
+}
+
+/* Paragraph styles */
+.streetFoodBottom p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #000; /* Black text */
+  line-height: 1.8;
+}
+
+/* List styles */
+.streetFoodBottom ul {
+  margin: 20px 0;
+  padding-left: 20px;
+  color: #000; /* Black for list items */
+}
+
+.streetFoodBottom ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  color: #000; /* Black for list items */
+}
+
+/* Strong tag styling */
+.streetFoodBottom strong {
+  color: #ffd700; /* Gold for emphasis */
+  font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .streetFoodTop {
+    height: 200px; /* Adjust height on smaller screens */
+  }
+
+  .streetFoodBottom h1 {
+    font-size: 2rem; /* Smaller heading size */
+  }
+
+  .streetFoodBottom h2 {
+    font-size: 1.5rem; /* Adjust subheading size */
+  }
+
+  .streetFoodBottom p,
+  .streetFoodBottom ul li {
+    font-size: 1rem; /* Adjust text size */
+  }
+}
