@@ -22,7 +22,9 @@ function Cart() {
             <div key={item.id} className="cartItem">
               <div className="cartItemDetails">
                 <h2 className="cartItemTitle">{item.name}</h2>
-                <p className="cartItemPrice">Prix: ${item.price.toFixed(2)}</p>
+                <p className="cartItemPrice">
+                  Prix: {item.price.toFixed(2)}MAD
+                </p>
                 <p className="cartItemQuantity">Quantité: {item.quantity}</p>
               </div>
               <div className="cartActions">
@@ -35,7 +37,7 @@ function Cart() {
       )}
       {cartItems.length > 0 && (
         <div className="cartTotal">
-          <h3>Total: ${total.toFixed(2)}</h3>
+          <h3>Total: {total.toFixed(2)} MAD</h3>
         </div>
       )}
     </div>

@@ -13,7 +13,7 @@ function MenuItem({ id, image, name, price }) {
         className="menuImage"
       ></div>
       <h1>{name}</h1>
-      <p>${price.toFixed(2)}</p>
+      <p>{price.toFixed(2)} MAD</p>
       <div className="menuActions">
         <button onClick={() => removeFromCart(id)} disabled={quantity === 0}>
           -
